@@ -1,33 +1,36 @@
 package org.sooproject.server;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.InetSocketAddress;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.Socket;
 import java.time.LocalDate;
+import java.util.Random;
 
 import org.sooproject.SimpleChat;
-import org.sooproject.client.MultiThreadClientChannel;
 
 public class MultiThreadServerChannel implements Runnable {
-	
+
 	public Socket socket = null;
 	private String nickName = "";
-	private boolean isConnected = true;
-	
+	private boolean isClosed = true;
+
 	public MultiThreadServerChannel(Socket socket) {
 		this.socket = socket;
-		this.nickName = String.format( "손님%x" , LocalDate.now().now().toEpochDay());
+		Random rndObject = new Random();
+		this.nickName = String.format("손님%x",rndObject.nextInt(10000) +  1000);
 	}
+
 	public void allListWrite(String in) {
-		
-		for(MultiThreadServerChannel mtc:SimpleChat.clientList)
-		{
+
+		for (MultiThreadServerChannel mtsc : SimpleChat.clientList) {
 			try {
-				DataOutputStream dos = new DataOutputStream(mtc.socket.getOutputStream());
+				DataOutputStream dos = new DataOutputStream(mtsc.socket.getOutputStream());
 				dos.writeUTF(in);
 				dos.flush();
 				System.out.println(in);
@@ -36,25 +39,28 @@ public class MultiThreadServerChannel implements Runnable {
 			}
 		}
 	}
+
 	public void run() {
 		while (true) {
-			
-			isConnected = socket.isConnected();
-			if (!isConnected) {
+
+			isClosed = socket.isClosed();
+			if (isClosed) {
 				SimpleChat.clientList.remove(this);
-				return;
+				break;
 			}
-			
+
 			try {
 				DataInputStream dis = new DataInputStream(socket.getInputStream());
-				String result = dis.readUTF();
-				if (!result.equals("")) {
-					System.out.println(result);
-					allListWrite(String.format("%s: %s", nickName, result));
-				}
+
+				String line = dis.readUTF();
+			
+				allListWrite(String.format("%s: %s", nickName, line));
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+
+				SimpleChat.clientList.remove(this);
+				System.out.println("=연결이 끊겼습니다.=");
+				System.out.printf("[현재 연결은 %d명 입니다]\n", SimpleChat.clientList.size());
+				break;
 			}
 
 		}

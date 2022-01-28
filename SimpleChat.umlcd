@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hLgWAH_zEeyaA9l_lLNz5A">
+  <modelElement href="SimpleChat.uml#_h2B5sH_zEeyaA9l_lLNz5A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h89BEH_zEeyaA9l_lLNz5A" source="_h8-POX_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h4WN4H_zEeyaA9l_lLNz5A"/>
+    <stereotypes xmi:id="_h89BEX_zEeyaA9l_lLNz5A" name="Reference">
+      <modelElement href="SimpleChat.uml#_h4W08H_zEeyaA9l_lLNz5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h89BEn_zEeyaA9l_lLNz5A" text=""/>
+    <sourceRole xmi:id="_h89BE3_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="">
+      <modelElement href="SimpleChat.uml#_h4WN4X_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h89BFH_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h89BFX_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h89BFn_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="serverSocket" navigable="true">
+      <modelElement href="SimpleChat.uml#_h4CE0H_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_2zcHwH_zEeyaA9l_lLNz5A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_h89BF3_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h89BGH_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h8-PMH_zEeyaA9l_lLNz5A" sourceAnchor="234.0,49.0" targetAnchor="224.0,0.0" target="_h91K0H_zEeyaA9l_lLNz5A" source="_h8-POX_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h4XcAH_zEeyaA9l_lLNz5A"/>
+    <bendpoints xmi:id="_q-iWUH_zEeyaA9l_lLNz5A" sourceX="273" targetY="-166"/>
+    <stereotypes xmi:id="_h8-PMX_zEeyaA9l_lLNz5A" name="Reference">
+      <modelElement href="SimpleChat.uml#_h4XcAn_zEeyaA9l_lLNz5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h8-PMn_zEeyaA9l_lLNz5A" text="">
+      <visualProperties xmi:id="_iK4vYH_zEeyaA9l_lLNz5A" position="-39.0,60.099999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_h8-PM3_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="">
+      <modelElement href="SimpleChat.uml#_h4XcAX_zEeyaA9l_lLNz5A"/>
+      <visualProperties xmi:id="_iK4IUH_zEeyaA9l_lLNz5A" position="17.0,-46.5"/>
+      <visibility xmi:id="_h8-PNH_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h8-PNX_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h8-PNn_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="clientList" navigable="true">
+      <modelElement href="SimpleChat.uml#_h4DS8H_zEeyaA9l_lLNz5A"/>
+      <visualProperties xmi:id="_iK5WcH_zEeyaA9l_lLNz5A" position="-64.0,-75.625"/>
+      <stereotypes xmi:id="_2zbgsH_zEeyaA9l_lLNz5A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_h8-PN3_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h8-POH_zEeyaA9l_lLNz5A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h9udIH_zEeyaA9l_lLNz5A" source="_h9udKX_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h4YDEH_zEeyaA9l_lLNz5A"/>
+    <stereotypes xmi:id="_h9udIX_zEeyaA9l_lLNz5A" name="Reference">
+      <modelElement href="SimpleChat.uml#_h4YDEn_zEeyaA9l_lLNz5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h9udIn_zEeyaA9l_lLNz5A" text=""/>
+    <sourceRole xmi:id="_h9udI3_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="">
+      <modelElement href="SimpleChat.uml#_h4YDEX_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h9udJH_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h9udJX_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h9udJn_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="serverConn" navigable="true">
+      <modelElement href="SimpleChat.uml#_h4D6AH_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_2za5oH_zEeyaA9l_lLNz5A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_h9udJ3_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h9udKH_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h9yukH_zEeyaA9l_lLNz5A" source="_h91K0H_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h4YqIH_zEeyaA9l_lLNz5A"/>
+    <stereotypes xmi:id="_h90jwn_zEeyaA9l_lLNz5A" name="Reference">
+      <modelElement href="SimpleChat.uml#_h4YqIn_zEeyaA9l_lLNz5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h9z8sH_zEeyaA9l_lLNz5A" text=""/>
+    <sourceRole xmi:id="_h90jwH_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="">
+      <modelElement href="SimpleChat.uml#_h4YqIX_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h90jxH_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h90jw3_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h90jwX_zEeyaA9l_lLNz5A" aggregationKind="NONE" name="socket" navigable="true">
+      <modelElement href="SimpleChat.uml#_h4GWQH_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_2zaSkH_zEeyaA9l_lLNz5A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_h90jxn_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h90jxX_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h91K0H_zEeyaA9l_lLNz5A" name="MultiThreadServerChannel" associationsIn="_h8-PMH_zEeyaA9l_lLNz5A" associationsOut="_h9yukH_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h2oWoH_zEeyaA9l_lLNz5A"/>
+    <visualProperties xmi:id="_h91K0X_zEeyaA9l_lLNz5A" position="869.0,241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h91K0n_zEeyaA9l_lLNz5A" label="+"/>
+    <attributes xmi:id="_h91K03_zEeyaA9l_lLNz5A" defaultValue="null" name="socket">
+      <modelElement href="SimpleChat.uml#_h4GWQH_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h91K1H_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4GWQn_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h91K1X_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h91K1n_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h91K13_zEeyaA9l_lLNz5A" name="Socket">
+        <modelElement href="SimpleChat.uml#_h3stoX_zEeyaA9l_lLNz5A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h91K2H_zEeyaA9l_lLNz5A" defaultValue="&quot;&quot;" name="nickName">
+      <modelElement href="SimpleChat.uml#_h4GWQ3_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h91K2X_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4G9UX_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h91K2n_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h91K23_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h91K3H_zEeyaA9l_lLNz5A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h91K3X_zEeyaA9l_lLNz5A" defaultValue="true" name="isClosed">
+      <modelElement href="SimpleChat.uml#_h4G9Un_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h91K3n_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4HkYH_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h91K33_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h91K4H_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h91K4X_zEeyaA9l_lLNz5A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h91K4n_zEeyaA9l_lLNz5A" name="allListWrite">
+      <modelElement href="SimpleChat.uml#_h2qL0H_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h91K43_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h91K5H_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h91K5X_zEeyaA9l_lLNz5A" name="in">
+        <modelElement href="SimpleChat.uml#_h2qy4H_zEeyaA9l_lLNz5A"/>
+        <cardinality xmi:id="_h91K5n_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+        <type xmi:id="_h91K53_zEeyaA9l_lLNz5A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h91K6H_zEeyaA9l_lLNz5A" name="run">
+      <modelElement href="SimpleChat.uml#_h2qy4X_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h91K6X_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h91K6n_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_h91K63_zEeyaA9l_lLNz5A" name="MultiThreadServerChannel">
+      <modelElement href="SimpleChat.uml#_h3_okX_zEeyaA9l_lLNz5A"/>
+      <keywords xmi:id="_h91K7H_zEeyaA9l_lLNz5A" keyword="create"/>
+      <visibility xmi:id="_h91K7X_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h91K7n_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h91K73_zEeyaA9l_lLNz5A">
+        <modelElement href="SimpleChat.uml#_h4APo3_zEeyaA9l_lLNz5A"/>
+        <type xmi:id="_h91K8H_zEeyaA9l_lLNz5A" name="MultiThreadServerChannel">
+          <modelElement href="SimpleChat.uml#_h2oWoH_zEeyaA9l_lLNz5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h91K8X_zEeyaA9l_lLNz5A" name="socket">
+        <modelElement href="SimpleChat.uml#_h4APoH_zEeyaA9l_lLNz5A"/>
+        <cardinality xmi:id="_h91K8n_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+        <type xmi:id="_h91K83_zEeyaA9l_lLNz5A" name="Socket">
+          <modelElement href="SimpleChat.uml#_h3stoX_zEeyaA9l_lLNz5A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h9udKX_zEeyaA9l_lLNz5A" name="MultiThreadClientChannel" associationsOut="_h9udIH_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h2iQAH_zEeyaA9l_lLNz5A"/>
+    <visualProperties xmi:id="_h9udKn_zEeyaA9l_lLNz5A" position="247.0,241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h9udK3_zEeyaA9l_lLNz5A" label="+"/>
+    <attributes xmi:id="_h9udLH_zEeyaA9l_lLNz5A" defaultValue="null" name="serverConn">
+      <modelElement href="SimpleChat.uml#_h4D6AH_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h9udLX_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4D6An_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h9udLn_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h9udL3_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h9udMH_zEeyaA9l_lLNz5A" name="Socket">
+        <modelElement href="SimpleChat.uml#_h3stoX_zEeyaA9l_lLNz5A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h9udMX_zEeyaA9l_lLNz5A" defaultValue="&quot;127.0.0.1&quot;" name="defaultIP">
+      <modelElement href="SimpleChat.uml#_h4EhEH_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h9udMn_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4EhEn_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h9udM3_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h9udNH_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h9udNX_zEeyaA9l_lLNz5A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h9udNn_zEeyaA9l_lLNz5A" defaultValue="3348" name="defaultPort">
+      <modelElement href="SimpleChat.uml#_h4FIIH_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h9udN3_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4FIIn_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h9udOH_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h9udOX_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h9udOn_zEeyaA9l_lLNz5A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h9udO3_zEeyaA9l_lLNz5A" defaultValue="false" name="isErr">
+      <modelElement href="SimpleChat.uml#_h4FII3_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h9udPH_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4FvMX_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h9udPX_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h9udPn_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h9udP3_zEeyaA9l_lLNz5A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h9udQH_zEeyaA9l_lLNz5A" name="MultiThreadClientChannel">
+      <modelElement href="SimpleChat.uml#_h2l6YH_zEeyaA9l_lLNz5A"/>
+      <keywords xmi:id="_h9udQX_zEeyaA9l_lLNz5A" keyword="create"/>
+      <visibility xmi:id="_h9udQn_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h9udQ3_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h9udRH_zEeyaA9l_lLNz5A">
+        <modelElement href="SimpleChat.uml#_h2mhcH_zEeyaA9l_lLNz5A"/>
+        <type xmi:id="_h9udRX_zEeyaA9l_lLNz5A" name="MultiThreadClientChannel">
+          <modelElement href="SimpleChat.uml#_h2iQAH_zEeyaA9l_lLNz5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h9udRn_zEeyaA9l_lLNz5A" name="defaultIP">
+        <modelElement href="SimpleChat.uml#_h2l6YX_zEeyaA9l_lLNz5A"/>
+        <cardinality xmi:id="_h9udR3_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+        <type xmi:id="_h9udSH_zEeyaA9l_lLNz5A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h9udSX_zEeyaA9l_lLNz5A" name="defaultPort">
+        <modelElement href="SimpleChat.uml#_h2l6Yn_zEeyaA9l_lLNz5A"/>
+        <cardinality xmi:id="_h9udSn_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+        <type xmi:id="_h9udS3_zEeyaA9l_lLNz5A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h9udTH_zEeyaA9l_lLNz5A" name="run">
+      <modelElement href="SimpleChat.uml#_h2mhcX_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h9udTX_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h9udTn_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h8-POX_zEeyaA9l_lLNz5A" name="SimpleChat" associationsOut="_h89BEH_zEeyaA9l_lLNz5A _h8-PMH_zEeyaA9l_lLNz5A">
+    <modelElement href="SimpleChat.uml#_h2WCwH_zEeyaA9l_lLNz5A"/>
+    <visualProperties xmi:id="_h8-POn_zEeyaA9l_lLNz5A" position="586.0,26.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h8-2QH_zEeyaA9l_lLNz5A" label="+"/>
+    <attributes xmi:id="_h8-2QX_zEeyaA9l_lLNz5A" defaultValue="null" name="serverSocket" staticAttribute="true">
+      <modelElement href="SimpleChat.uml#_h4CE0H_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h8-2Qn_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4Cr4X_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h8-2Q3_zEeyaA9l_lLNz5A" label="-"/>
+      <cardinality xmi:id="_h8-2RH_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <type xmi:id="_h8-2RX_zEeyaA9l_lLNz5A" name="ServerSocket">
+        <modelElement href="SimpleChat.uml#_h3sGkX_zEeyaA9l_lLNz5A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h8-2Rn_zEeyaA9l_lLNz5A" defaultValue="null" name="clientList" staticAttribute="true">
+      <modelElement href="SimpleChat.uml#_h4DS8H_zEeyaA9l_lLNz5A"/>
+      <stereotypes xmi:id="_h8-2R3_zEeyaA9l_lLNz5A" name="LegacyStyledElement">
+        <modelElement href="SimpleChat.uml#_h4DS83_zEeyaA9l_lLNz5A"/>
+      </stereotypes>
+      <visibility xmi:id="_h8-2SH_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h8-2SX_zEeyaA9l_lLNz5A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_h8-2Sn_zEeyaA9l_lLNz5A" name="MultiThreadServerChannel">
+        <modelElement href="SimpleChat.uml#_h2oWoH_zEeyaA9l_lLNz5A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h8-2S3_zEeyaA9l_lLNz5A" name="initialized" staticOperation="true">
+      <modelElement href="SimpleChat.uml#_h2dXgH_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h8-2TH_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h8-2TX_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_h8-2Tn_zEeyaA9l_lLNz5A" name="main" staticOperation="true">
+      <modelElement href="SimpleChat.uml#_h2fMsH_zEeyaA9l_lLNz5A"/>
+      <visibility xmi:id="_h8-2T3_zEeyaA9l_lLNz5A" label="+"/>
+      <cardinality xmi:id="_h8-2UH_zEeyaA9l_lLNz5A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h8-2UX_zEeyaA9l_lLNz5A" name="args">
+        <modelElement href="SimpleChat.uml#_h2fMsX_zEeyaA9l_lLNz5A"/>
+        <cardinality xmi:id="_h8-2Un_zEeyaA9l_lLNz5A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_h8-2U3_zEeyaA9l_lLNz5A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
